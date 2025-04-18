@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Edice.svg" alt="">
+            <img src="./img/Ddice.svg" alt="">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="поиск...">
+            <img src="./img/lupa.svg" alt="">
+        </div>
+        <div class="sectors">
+            <div class="sector">
+                <img src="./img/huggers.svg" alt="">
+                <p>войти</p>
+            </div>
+            <div class="sector">
+                <img src="./img/cart.svg" alt="">
+                <p>корзина</p>
+            </div>
+            <div class="sector">
+                <img src="./img/fav.svg" alt="">
+                <p>избранное</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>настольные игры</li>
+            <li>варгеймы</li>
+            <li>ККИ</li>
+            <li>НРИ</li>
+            <li>миниатюры</li>
+            <li>кости</li>
+            <li>акссуары</li>
+            <li>новинки</li>
+            <li>популярное</li>
+        </ul>
+    </nav>
+    <div class="catalog">
+        <div class="catalog__title">
+            <p class="title">Каталог</p>
+            <p>показано 8231 результатов</p>
+        </div>
+        <div class="catalog__grid">
+            <div class="catalog__filter">
+                <div class="filter__title">
+                    <p>Категории</p>
+                    <ul>
+                        <li>настольные игры</li>
+                        <li>варгеймы</li>
+                        <li>ККИ</li>
+                        <li>НРИ</li>
+                        <li>миниатюры</li>
+                        <li>кости</li>
+                        <li>акссуары</li>
+                        <li>новинки</li>
+                        <li>популярное</li>
+                    </ul>
+                </div>
+                <div class="filter__title">
+                    <p>Цена</p>
+                    <div class="filter__price">
+                        <div class="price">
+                            <input type="number" placeholder="от">
+                            <input type="number" placeholder="до">
+                        </div>
+                        <div class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>только со скидкой</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="filter__title">
+                    <p>Длительность</p>
+                    <ul>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>до 15 минут</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>до 30 минут</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>до 45 минут</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>до 60 минут</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>до 90 минут</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>до 120 минут</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>больше 120 минут</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter__title">
+                    <p>Возраст</p>
+                    <ul>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>от 3 до 5 лет</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>от 6 до 10 лет</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>от 11 до 15 лет</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>от 16 до 18 лет</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>от 18 лет</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter__title">
+                    <p>Количество игроков</p>
+                    <ul>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>1 игрок</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>2 игрока</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>3 игрока</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>4 игрока</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>4+ игроков</span>
+                        </li>
+                </div>
+                <div class="filter__title">
+                    <p>Производитель</p>
+                    <ul>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>Hobby Games</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>Roll20</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>Owl Cat</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>Звезда</span>
+                        </li>
+                        <li class="filter__check">
+                            <input type="checkbox" name="checkbox" id="" class="checkbox">
+                            <span>Magellan</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="catalog__cards">
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/serp.png" alt="">
+                    <p>Серп игра</p>
+                    <div class="card__btns">
+                        <span>6990 ₽</span>
+                        <button>в корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer__text">
+            <p>Копирование материалов разрешено только по согласию администрации. Содержимое сайта не является публичной офертой.</p>
+            <p>diceEdge24@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
